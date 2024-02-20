@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(193, 250, 231);
+}
+
+
+
+.dashboard{
+    background-color:rgb(141, 248, 212);
+
+    height: 100vh;
+}
+
+.dashboard ul li{
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.dashboard ul li:hover{
+    /* color: aquamarine; */
+    background-color: white;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.dashboard ul li img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.row .card{
+    margin:23px ;
+    box-shadow: 0 0 10px 5px rgb(193, 250, 231);
+    text-align: center;
+   
+}
+
+.row .card-body .card-title{
+        background-color: rgb(193, 250, 231);
+        border-radius: 10px;
+}
